@@ -76,7 +76,7 @@ På samme måde er det vigtigt at vælge den LLM, der bedst passer til den speci
   - Computeren lærer selv at finde mønstre og træffe beslutninger baseret på disse eksempler
   - F.eks. efter at have set tusindvis af billeder af æbler og bananer, kan computeren lære at skelne mellem dem
 
-- Naturlig sprogbehandling (NLP)
+- Naturlig sprogbehandling (NLP - Natural Language Processing)
   - NLP handler om at få computere til at forstå og arbejde med menneskeligt sprog
   - Det er som at lære en computer at læse, forstå og svare på en sms
   - NLP omfatter opgaver som at forstå betydningen af ord, analysere sætningsstruktur og fortolke kontekst
