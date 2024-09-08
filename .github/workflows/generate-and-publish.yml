@@ -1,0 +1,87 @@
+name: Generate and Publish Presentation
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+
+      - name: Install dependencies
+        run: |
+          npm init -y
+          npm install marked@4.3.0 @material/typography@14.0.0
+
+      - name: Generate HTML
+        run: |
+          node << EOF
+          const fs = require('fs');
+          const marked = require('marked');
+          const mdContent = fs.readFileSync('PRESENTATION.md', 'utf-8');
+          const htmlContent = marked.parse(mdContent);
+          const styledHtml = \`
+          <!DOCTYPE html>
+          <html lang="en">
+          <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>AI Presentation</title>
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+            <style>
+              body {
+                font-family: 'Roboto', sans-serif;
+                line-height: 1.6;
+                color: rgba(0, 0, 0, 0.87);
+                margin: 0;
+                padding: 20px;
+                background-color: #f5f5f5;
+              }
+              .container {
+                max-width: 800px;
+                margin: 0 auto;
+                background-color: white;
+                padding: 40px;
+                border-radius: 4px;
+                box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+              }
+              h1 { font-size: 2.5rem; font-weight: 400; }
+              h2 { font-size: 2rem; font-weight: 400; }
+              h3 { font-size: 1.75rem; font-weight: 400; }
+              h4 { font-size: 1.5rem; font-weight: 400; }
+              p { font-size: 1rem; }
+              ul, ol { padding-left: 20px; }
+              code {
+                background-color: #f5f5f5;
+                padding: 2px 4px;
+                border-radius: 4px;
+                font-family: monospace;
+              }
+            </style>
+          </head>
+          <body>
+            <div class="container">
+              ${htmlContent}
+            </div>
+          </body>
+          </html>
+          \`;
+          fs.writeFileSync('index.html', styledHtml);
+          EOF
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: .
+          publish_branch: gh-pages
