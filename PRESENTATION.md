@@ -103,6 +103,17 @@ På samme måde er det vigtigt at vælge den LLM, der bedst passer til den speci
     - Disse høje omkostninger er en af grundene til, at kun få virksomheder kan udvikle de største LLM'er
   - Når træningen er færdig, kan modellen bruges til at generere tekst, svare på spørgsmål eller udføre andre sprogopgaver
 
+### Udvikling i Kontekstvindue
+LLM'er har oplevet en markant udvidelse af deres kontekstvindue over tid, hvilket har stor betydning for deres anvendelighed og ydeevne:
+
+- Tidlige modeller: Få hundrede tokens (ord eller delord)
+- GPT-3 (2020): Op til 4.096 tokens
+- GPT-3.5 (2022): Op til 8.192 tokens for nogle varianter
+- GPT-4 (2023): Op til 32.768 tokens (ca. 25.000 ord)
+- Nyeste annonceringer (2023-2024): Modeller med kapacitet op til 1.000.000 tokens
+
+Denne udvikling muliggør analyse og generering af meget længere tekster, forbedrer langtidshukommelsen i samtaler, og åbner for nye anvendelsesområder som omfattende dokumentanalyse og kompleks problemløsning.
+
 ### Anvendelsesområder
 LLM'er har en bred vifte af anvendelsesområder, der spænder over mange forskellige industrier og opgavetyper:
 
