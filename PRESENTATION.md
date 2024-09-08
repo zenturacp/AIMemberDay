@@ -150,6 +150,10 @@ Disse anvendelsesområder viser, hvordan LLM'er kan revolutionere mange aspekter
 
 ## 2. AI-drevne Værktøjer og Tjenester i Softwareudvikling
 
+Lad os være ærlige: Softwareudvikling er kompleks, men den er også forudsigelig. Der er regler, mønstre og best practices, som gentager sig på tværs af projekter og domæner. Når alt kommer til alt, er der intet der taler for, at en veldesignet AI ikke skulle være bedre end et menneske til at udføre denne opgave på alle tænkelige måder. AI'er bliver ikke trætte, de glemmer ikke detaljer, de har adgang til al eksisterende kode og dokumentation, og de kan arbejde 24/7 uden at brokke sig over overtid eller kaffe af dårlig kvalitet. 
+
+Så spørgsmålet er ikke længere, om AI kan erstatte menneskelige udviklere, men snarere hvornår og hvordan. Lad os se på, hvordan værktøjerne har udviklet sig, og hvor vi er på vej hen.
+
 ### Udviklingsværktøjernes Evolution
 1. Traditionel Code Completion
    - Baseret på statisk analyse og foruddefinerede regler
