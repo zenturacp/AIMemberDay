@@ -21,7 +21,7 @@ jobs:
       - name: Install dependencies
         run: |
           npm init -y
-          npm install marked@4.3.0 @material/typography@14.0.0 axios@0.21.1
+          npm install marked @material/typography axios
 
       - name: Generate HTML
         run: node .github/scripts/generate-html.js
