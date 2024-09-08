@@ -114,6 +114,20 @@ LLM'er har oplevet en markant udvidelse af deres kontekstvindue over tid, hvilke
 
 Denne udvikling muliggør analyse og generering af meget længere tekster, forbedrer langtidshukommelsen i samtaler, og åbner for nye anvendelsesområder som omfattende dokumentanalyse og kompleks problemløsning.
 
+For at sætte dette i perspektiv, kan 500.000 tokens svare til omkring 375.000 ord eller cirka 750 sider i en gennemsnitlig bog. Dette er en enorm mængde information, der kan behandles på én gang.
+
+### Håndtering af Manglende Domæneviden
+
+Når man arbejder med LLM'er og mangler specifik domæneviden, er der flere effektive strategier:
+
+1. **Indlæsning af Ekstra Indhold**: Man kan simpelthen indlæse relevant information direkte i modellen som ekstra kontekst. Dette er især nyttigt, når den nødvendige information er tilgængelig online.
+
+2. **Web Scraping**: Hvis informationen findes på nettet, kan man bruge web scraping-teknikker til at indsamle den. For eksempel kan man bede en AI-assistent som Aider om at skrive en scraper, der kan hente det relevante indhold.
+
+3. **Udnyttelse af Større Kontekstvinduer**: I takt med at kontekstvinduerne bliver større, bliver problemet med manglende domæneviden mindre. Med et kontekstvindue på 500.000 tokens kan man indlæse enorme mængder af baggrundsinformation, hvilket gør modellen i stand til at håndtere selv meget specialiserede opgaver uden forudgående træning.
+
+Disse metoder gør det muligt at tilpasse generelle LLM'er til specifikke domæner eller opgaver uden behov for omfattende finjustering eller specialiseret træning. Det åbner op for mere fleksibel og effektiv anvendelse af AI i en bred vifte af specialiserede områder.
+
 ### Anvendelsesområder
 LLM'er har en bred vifte af anvendelsesområder, der spænder over mange forskellige industrier og opgavetyper:
 
