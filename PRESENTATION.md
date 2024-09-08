@@ -1,13 +1,11 @@
 # Fremtiden med AI: LLM'er, Værktøjer og Pair Programming
 
-## Introduktion og Interaktiv Spørgeskema
-
-Velkommen til vores præsentation om fremtiden med AI! Før vi dykker ned i emnet, vil jeg gerne høre lidt om jeres erfaringer med AI. Lad os starte med et kort spørgeskema:
+## Erfaring med brug af AI?
 
 1. Hvor mange af jer har allerede arbejdet med AI eller machine learning projekter?
    - Ræk hånden op hvis I har erfaring.
 
-2. Hvem har hørt om eller brugt Large Language Models (LLM'er) som GPT-3 eller BERT?
+2. Hvem har hørt om eller brugt Large Language Models (LLM'er) som ChatGPT eller lignede modeller?
    - Vis hånden hvis I kender til disse modeller.
 
 3. Har nogen af jer integreret AI-værktøjer i jeres daglige arbejdsflow?
@@ -19,8 +17,6 @@ Velkommen til vores præsentation om fremtiden med AI! Før vi dykker ned i emne
 5. Er der nogen, der har erfaring med pair programming sammen med en AI?
    - Vis hånden hvis I har prøvet dette.
 
-Tak for jeres deltagelse! Disse svar vil hjælpe mig med at tilpasse præsentationen til jeres erfaringsniveau.
-
 ## Oversigt over Præsentationen
 
 I dag skal vi udforske tre hovedemner:
@@ -28,8 +24,7 @@ I dag skal vi udforske tre hovedemner:
 1. Introduktion til LLM'er (Large Language Models)
 2. AI-drevne værktøjer og tjenester
 3. AI i pair programming
-
-Lad os begynde!
+4. Fremtiden er AI Engineere - Aflever problemstilling, og få noget nær færdigt produkt retur
 
 ## 1. Introduktion til LLM'er
 
