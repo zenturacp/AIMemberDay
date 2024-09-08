@@ -46,7 +46,7 @@ I dag skal vi udforske tre hovedemner:
   - LLM'er bruger en teknik kaldet "self-attention" til at forstå sammenhænge mellem ord i en tekst.
   - De kan generere tekst ved sekventielt at forudsige det næste ord baseret på tidligere ord.
   - Modellerne kan finjusteres til specifikke opgaver som oversættelse, spørgsmål-svar eller kodegenerering.
-- Eksempler på populære LLM'er (GPT-3, BERT, etc.)
+- Eksempler på populære LLM'er (GPT-3, GPT-4(o), BERT, Claude 3.5 Sonnet etc.)
 
 ### Grundlæggende principper
 - Kort introduktion til maskinlæring
