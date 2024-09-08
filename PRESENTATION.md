@@ -64,6 +64,11 @@ I dag skal vi udforske tre hovedemner:
        - CodeBERT: Optimeret til forståelse og generering af kildekode
   - Valg af model afhænger af opgaven, ressourcer og krav til ydeevne
 
+### Vigtigheden af at vælge den rigtige model
+At vælge den rigtige LLM til en specifik opgave er afgørende for succes. Det kan sammenlignes med en tømrer, der står over for et søm med kun en skruetrækker i hånden. Selvom skruetrækkeren er et nyttigt værktøj, er den ikke egnet til at slå søm i. Tømreren vil naturligvis lede efter en hammer for at udføre opgaven effektivt.
+
+På samme måde er det vigtigt at vælge den LLM, der bedst passer til den specifikke opgave. At bruge en generel model til en meget specialiseret opgave, eller omvendt, kan resultere i suboptimale resultater, ineffektivitet og potentielt fejlagtige outputs. Ved at forstå styrkerne og begrænsningerne ved forskellige LLM'er kan vi sikre, at vi bruger det rigtige "værktøj" til jobbet, hvilket fører til bedre resultater og mere effektiv ressourceudnyttelse.
+
 ### Grundlæggende principper
 - Kort introduktion til maskinlæring
 - Naturlig sprogbehandling (NLP)
