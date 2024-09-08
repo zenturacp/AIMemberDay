@@ -88,6 +88,11 @@ På samme måde er det vigtigt at vælge den LLM, der bedst passer til den speci
   - Under læsningen justerer modellen sine interne forbindelser for bedre at forudsige det næste ord i en sætning
   - Dette er som at træne en muskel: jo mere modellen "læser", jo bedre bliver den til at forstå og generere tekst
   - Træningen kræver kraftige computere og kan tage uger eller måneder
+  - Omkostningerne ved at træne en GPT-model er betydelige:
+    - For eksempel estimeres det, at træning af GPT-3 kostede omkring 4-12 millioner dollars
+    - Dette inkluderer udgifter til hardware, elektricitet og køling af datacentre
+    - Mindre modeller kan koste fra hundredtusinder til millioner af dollars at træne
+    - Disse høje omkostninger er en af grundene til, at kun få virksomheder kan udvikle de største LLM'er
   - Når træningen er færdig, kan modellen bruges til at generere tekst, svare på spørgsmål eller udføre andre sprogopgaver
 
 ### Anvendelsesområder
