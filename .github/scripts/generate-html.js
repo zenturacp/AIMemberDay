@@ -82,7 +82,12 @@ async function generateHTML(mdFilePath, baseDir, processedFiles = new Set(), out
   const styledHtml = template.replace('${htmlContent}', htmlContent);
 
   const relativePath = path.relative(baseDir, mdFilePath);
-  const htmlFilePath = path.join(outputDir, relativePath.replace('.md', '.html'));
+  let htmlFilePath;
+  if (path.basename(mdFilePath) === 'PRESENTATION.md') {
+    htmlFilePath = path.join(outputDir, 'index.html');
+  } else {
+    htmlFilePath = path.join(outputDir, relativePath.replace('.md', '.html'));
+  }
   const htmlDir = path.dirname(htmlFilePath);
   if (!fs.existsSync(htmlDir)) {
     fs.mkdirSync(htmlDir, { recursive: true });
