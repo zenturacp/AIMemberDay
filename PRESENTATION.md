@@ -1,24 +1,5 @@
 # Fremtiden med AI: LLM'er, Værktøjer og Pair Programming
 
-## AI's Historiske Udvikling
-
-Kunstig intelligens (AI) har en lang og fascinerende historie, der strækker sig over flere årtier:
-
-- 1950'erne: De første AI-forsøg begynder. Alan Turing foreslår "Turing-testen" (1950).
-- 1956: Dartmouth Workshop markerer fødslen af AI som forskningsfelt.
-- 1960'erne-70'erne: Tidlige succeser med ekspertsystemer og symbolsk AI.
-- 1980'erne: Neurale netværk og machine learning begynder at vinde frem.
-- 1997: IBM's Deep Blue slår verdensmesteren i skak, Garry Kasparov.
-- 2011: IBM's Watson vinder Jeopardy! mod menneskelige mestre.
-- 2012: Deep learning revolutionerer computersyn med AlexNet.
-- 2016: Google DeepMind's AlphaGo slår verdensmesteren i Go.
-- 2018: BERT introducerer transformers i NLP, hvilket baner vejen for moderne LLM'er.
-- 2020: GPT-3 lanceres og demonstrerer imponerende sprogforståelse og -generering.
-- 2022: ChatGPT frigives og gør avancerede LLM'er tilgængelige for offentligheden.
-- 2023: GPT-4 lanceres med yderligere forbedringer i ydeevne og muligheder.
-
-Denne tidslinje viser den eksponentielle udvikling i AI-teknologi, især i de seneste år. Fra at være et nichefelt for forskere er AI nu blevet "mainstream" og en del af vores daglige liv. LLM'er som GPT har demokratiseret adgangen til avanceret AI, hvilket giver almindelige mennesker mulighed for at interagere direkte med disse kraftfulde modeller.
-
 ## Erfaring med brug af AI?
 
 1. Hvor mange af jer har allerede arbejdet med AI eller machine learning projekter?
