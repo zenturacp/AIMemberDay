@@ -263,7 +263,9 @@ For at få det bedste ud af AI i pair programming, er det vigtigt at forstå, hv
 ### Udfordringer og Overvejelser
 
 - Vigtigheden af at validere AI-genereret kode
-- Balancering mellem AI-assistance og bevarelse af menneskelig ekspertise
+  - Lidt endnu - inden længe er det ligemeget, for man kan lave 2 uafhængige modeller f.eks.
+- Balancering mellem AI-assistance og bevarelse af menneskelig ekspertise 
+  - Mennesket skal være der hvor det giver mest værdi, og det er ikke kode arbejde men design og arkitektur.
 - Håndtering af potentielle bias i AI-modeller
 - Sikkerhed og fortrolighed ved brug af eksterne AI-tjenester
 
