@@ -191,18 +191,58 @@ Så spørgsmålet er ikke længere, om AI kan erstatte menneskelige udviklere, m
 - Potentiale for AI til at håndtere komplekse opgaver som refaktorering af legacy-systemer
 - Udvikling af mere specialiserede AI-værktøjer til specifikke programmeringssprog eller domæner
 
-## 3. AI i Pair Programming (Der er vi lige nu)
+## 3. AI i Pair Programming: En Ny Æra af Samarbejde
 
-- Live demo med Aider, hvor vi bruger Claude 3.5 Sonnet, vi ser også på et alternativ værktøj Claude Dev, samt Continue Dev til Completion
-- Du skal se din assistent som et menneske, jo mere context du giver assistenten jo større chance for success er der, det er ledelse. En AI er ikke et vidunder middel der kan læse hvad du tænker, den har også behov for korrekt instruks, og så meget context som muligt.
-- Du skal starte med at sætte scnene, dvs. du skal lave en brain storm og beskrivelse af projektet, jeg plejer at inddele det i 3 faser før jeg har noget kode
-- 1. Projektets formål og krav
-- 2. Projektets arkitektur og design
-- 3. Projektets funktionelle krav og brugergrænseflade
-- Det er vigtigt at du er præcis i din beskrivelse, da dette er det som AI'en skal lave kode ud fra, og det er også vigtigt at du er præcis i din beskrivelse, da dette er det som AI'en skal lave kode ud fra, og det er også vigtigt at du er præcis i din beskrivelse, da dette er det som AI'en skal lave kode ud fra.
-- Jeg bruger altid MARKDOWN filer fordi de alene fokusere på indholdet og man kan godt holde en sturktur så man ved hvad der er sammen, det kan de fleste AI modeller også nemt forstå, hvormod word er meget svært at læse
-- Når jeg har beskrevet hele projektet laver jeg f.eks. schema filer, eller alle de filer der skal bruges til at beskrive API'er data modeller eller lignede så jeg har dem med i projektet som den første del af koden
-- Når dette er gjort beder jeg AI'en om at lave en TODO med milestones til projektet, samt evt. skrive alt dokumetnationen og beder den lave den meget detaljeret
+AI i pair programming repræsenterer en revolutionerende tilgang til softwareudvikling, hvor mennesker og kunstig intelligens arbejder side om side. Denne metode kombinerer menneskelig kreativitet og domæneviden med AI's evne til hurtig informationsbehandling og mønstergenkendelse.
+
+### Live Demonstration af AI-assisteret Udvikling
+
+I denne sektion vil vi gennemføre en live demonstration af AI-assisteret udvikling ved hjælp af forskellige værktøjer:
+
+1. **Aider med Claude 3.5 Sonnet**: Vi vil vise, hvordan Aider integrerer Claude 3.5 Sonnet til at assistere i kodningsprocessen.
+2. **Claude Dev**: Et alternativt værktøj, der demonstrerer forskellige tilgange til AI-assisteret kodning.
+3. **Continue Dev**: Vi vil udforske, hvordan dette værktøj kan bruges til kodekompletering og -forbedring.
+
+### Effektiv Interaktion med AI-assistenter
+
+For at få det bedste ud af AI i pair programming, er det vigtigt at forstå, hvordan man effektivt interagerer med AI-assistenter:
+
+1. **Kontekst er nøglen**: Jo mere kontekst du giver AI-assistenten, desto bedre bliver resultatet. Tænk på AI'en som en menneskelig partner, der har brug for grundig information for at forstå opgaven fuldt ud.
+
+2. **Klare instruktioner**: AI'er er ikke tankelæsere. Præcise og detaljerede instruktioner er afgørende for at opnå de ønskede resultater.
+
+3. **Struktureret tilgang**: En effektiv metode til at arbejde med AI involverer tre hovedfaser:
+   - Projektets formål og krav
+   - Arkitektur og design
+   - Funktionelle krav og brugergrænseflade
+
+4. **Dokumentation er afgørende**: Brug Markdown-filer til at dokumentere dit projekt. Dette format er let at læse for både mennesker og AI'er og hjælper med at holde information struktureret og tilgængelig.
+
+### Praktisk Workflow med AI
+
+1. **Projektbeskrivelse**: Start med en detaljeret beskrivelse af projektet i Markdown-format. Dette danner grundlaget for AI'ens forståelse af opgaven.
+
+2. **Skemafiler og API-beskrivelser**: Opret skemafiler og API-beskrivelser tidligt i processen. Dette giver AI'en et klart billede af projektets struktur og dataflow.
+
+3. **AI-genereret Projektplan**: Lad AI'en generere en TODO-liste med milestones baseret på din projektbeskrivelse. Dette kan hjælpe med at strukturere udviklingsprocessen.
+
+4. **Dokumentation**: Brug AI'en til at generere detaljeret dokumentation. Dette sikrer, at dokumentationen holdes opdateret i takt med projektets udvikling.
+
+### Fordele ved AI i Pair Programming
+
+- Øget produktivitet gennem hurtigere kodegenerering og fejlfinding
+- Adgang til en bred videnbase, der kan hjælpe med at løse komplekse problemer
+- Kontinuerlig læring og forbedring af kodekvalitet
+- Mulighed for at fokusere på højere-niveau design og arkitektur, mens AI håndterer rutineopgaver
+
+### Udfordringer og Overvejelser
+
+- Vigtigheden af at validere AI-genereret kode
+- Balancering mellem AI-assistance og bevarelse af menneskelig ekspertise
+- Håndtering af potentielle bias i AI-modeller
+- Sikkerhed og fortrolighed ved brug af eksterne AI-tjenester
+
+Denne tilgang til AI i pair programming åbner op for en ny æra af softwareudvikling, hvor mennesker og maskiner samarbejder om at skabe mere effektive, robuste og innovative løsninger.
 
 
 ## Konklusion
