@@ -19,6 +19,8 @@
 
 ## Oversigt over Præsentationen
 
+For en detaljeret gennemgang af AI's historiske udvikling, se venligst [HISTORY.md](HISTORY.md).
+
 I dag skal vi udforske tre hovedemner:
 
 1. Introduktion til LLM'er (Large Language Models)
