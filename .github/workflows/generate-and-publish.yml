@@ -56,7 +56,7 @@ jobs:
                 const savedFilePath = await fetchAndSaveExternalContent(url, baseDir);
                 if (savedFilePath) {
                   const relativePath = path.relative(baseDir, savedFilePath);
-                  processedContent = processedContent.replace(fullMatch, `[${linkText}](${relativePath})`);
+                  processedContent = processedContent.replace(fullMatch, `[${linkText}](\${relativePath})`);
                 }
               }
             }
