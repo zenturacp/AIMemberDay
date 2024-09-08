@@ -277,8 +277,8 @@ Denne tilgang til AI i pair programming åbner op for en ny æra af softwareudvi
 
 ## Spørgsmål og Diskussion
 
-- Åben for spørgsmål fra publikum
-- Diskussion om deltagernes erfaringer og tanker
+- Spørgsmål?
+- Hvad tænker i?
 
 Tak for jeres opmærksomhed!
 
