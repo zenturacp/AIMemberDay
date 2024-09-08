@@ -111,7 +111,7 @@ jobs:
             </head>
             <body>
               <div class="container">
-                ${htmlContent}
+                \${htmlContent}
               </div>
             </body>
             </html>
