@@ -148,21 +148,44 @@ LLM'er har en bred vifte af anvendelsesområder, der spænder over mange forskel
 
 Disse anvendelsesområder viser, hvordan LLM'er kan revolutionere mange aspekter af vores arbejde og daglige liv ved at automatisere komplekse sproglige opgaver og give indsigt i store mængder information.
 
-## 2. AI-drevne Værktøjer og Tjenester
+## 2. AI-drevne Værktøjer og Tjenester i Softwareudvikling
 
-### Overblik over moderne AI-værktøjer
-- Kodekomplettering og -suggestion
-- Automatiseret fejlfinding
-- Dokumentationsgenerering
+### Udviklingsværktøjernes Evolution
+1. Traditionel Code Completion
+   - Baseret på statisk analyse og foruddefinerede regler
+   - Begrænset til simple forslag baseret på eksisterende kode
 
-### Innovative applikationer
-- AI-assisteret design
-- Dataanalyse og visualisering
-- Chatbots og kundeservice
+2. AI-drevet Tab Completion (f.eks. Copilot)
+   - Bruger machine learning til at generere mere kontekstuelle og avancerede forslag
+   - Kan foreslå hele kodeblokke eller funktioner baseret på kommentarer eller delvis kode
 
-### Produktivitetsforøgelse
-- Hvordan AI-værktøjer forbedrer arbejdsprocesser
-- Eksempler på effektivitetsforbedringer i forskellige brancher
+3. AI-assisteret Pair Programming
+   - Tager hensyn til flere filers kontekst
+   - Kan foreslå arkitekturelle ændringer og optimeringsforslag
+   - Hjælper med at identificere potentielle fejl og sikkerhedsproblemer
+
+4. Fremtidens Agent-baserede Udvikling
+   - Multiple specialiserede AI-agenter, der samarbejder om forskellige aspekter af projektet
+   - Automatiseret generering af hele projekter, inklusive frontend, backend, og dokumentation
+   - Kontinuerlig optimering og vedligeholdelse af kodebasen
+
+### Fordele ved AI-drevne Udviklingsværktøjer
+- Øget produktivitet gennem hurtigere kodegenerering
+- Reduceret antal fejl og forbedret kodekvalitet
+- Lettere onboarding af nye udviklere til eksisterende projekter
+- Mulighed for hurtig prototyping og eksperimentering
+
+### Udfordringer og Overvejelser
+- Afhængighed af eksterne AI-tjenester og potentielle sikkerhedsrisici
+- Behov for at validere og forstå AI-genereret kode
+- Balancering mellem AI-assistance og bevarelse af udvikleres kreativitet og problemløsningsevner
+- Etiske overvejelser omkring ophavsret og ansvar for AI-genereret kode
+
+### Fremtidsperspektiver
+- Integration af AI i hele softwareudviklingslivscyklussen
+- Personlige AI-assistenter tilpasset individuelle udvikleres stil og præferencer
+- Potentiale for AI til at håndtere komplekse opgaver som refaktorering af legacy-systemer
+- Udvikling af mere specialiserede AI-værktøjer til specifikke programmeringssprog eller domæner
 
 ## 3. AI i Pair Programming
 
