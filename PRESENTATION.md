@@ -191,25 +191,19 @@ Så spørgsmålet er ikke længere, om AI kan erstatte menneskelige udviklere, m
 - Potentiale for AI til at håndtere komplekse opgaver som refaktorering af legacy-systemer
 - Udvikling af mere specialiserede AI-værktøjer til specifikke programmeringssprog eller domæner
 
-## 3. AI i Pair Programming
+## 3. AI i Pair Programming (Der er vi lige nu)
 
-### Introduktion til AI-assisteret pair programming
-- Hvad er pair programming?
-- Hvordan integreres AI i processen?
+- Live demo med Aider, hvor vi bruger Claude 3.5 Sonnet, vi ser også på et alternativ værktøj Claude Dev, samt Continue Dev til Completion
+- Du skal se din assistent som et menneske, jo mere context du giver assistenten jo større chance for success er der, det er ledelse. En AI er ikke et vidunder middel der kan læse hvad du tænker, den har også behov for korrekt instruks, og så meget context som muligt.
+- Du skal starte med at sætte scnene, dvs. du skal lave en brain storm og beskrivelse af projektet, jeg plejer at inddele det i 3 faser før jeg har noget kode
+- 1. Projektets formål og krav
+- 2. Projektets arkitektur og design
+- 3. Projektets funktionelle krav og brugergrænseflade
+- Det er vigtigt at du er præcis i din beskrivelse, da dette er det som AI'en skal lave kode ud fra, og det er også vigtigt at du er præcis i din beskrivelse, da dette er det som AI'en skal lave kode ud fra, og det er også vigtigt at du er præcis i din beskrivelse, da dette er det som AI'en skal lave kode ud fra.
+- Jeg bruger altid MARKDOWN filer fordi de alene fokusere på indholdet og man kan godt holde en sturktur så man ved hvad der er sammen, det kan de fleste AI modeller også nemt forstå, hvormod word er meget svært at læse
+- Når jeg har beskrevet hele projektet laver jeg f.eks. schema filer, eller alle de filer der skal bruges til at beskrive API'er data modeller eller lignede så jeg har dem med i projektet som den første del af koden
+- Når dette er gjort beder jeg AI'en om at lave en TODO med milestones til projektet, samt evt. skrive alt dokumetnationen og beder den lave den meget detaljeret
 
-### Demonstration af AI-drevne kodeassistenter
-- Live-demo af populære værktøjer
-- Gennemgang af funktioner og muligheder
-
-### Fordele ved AI i pair programming
-- Hurtigere kodegenerering
-- Fejlreduktion
-- Læring og forbedring af kodekvalitet
-
-### Udfordringer og bedste praksis
-- Potentielle faldgruber
-- Tips til effektivt samarbejde mellem mennesker og AI
-- Etiske overvejelser
 
 ## Konklusion
 
