@@ -36,8 +36,12 @@ I dag skal vi udforske tre hovedemner:
   - LLM'er kan ses som meget avancerede tekstgeneratorer, der kan forstå kontekst og producere meningsfuldt indhold.
 - Hvordan fungerer de?
   - LLM'er er baseret på neurale netværk med milliarder af parametre.
+    - Et parameter er en justerbar værdi i modellen, der læres under træning.
+    - Parametre kan ses som modellens "viden" eller "hukommelse".
+    - Jo flere parametre, jo mere kompleks og potentielt kraftfuld er modellen.
+    - F.eks. har GPT-3 175 milliarder parametre.
   - De trænes på massive mængder tekstdata fra internettet og andre kilder.
-  - Under træningen lærer modellen mønstre og sammenhænge i sproget.
+  - Under træningen lærer modellen mønstre og sammenhænge i sproget ved at justere disse parametre.
   - Når modellen er trænet, kan den forudsige det næste ord i en sekvens baseret på konteksten.
   - LLM'er bruger en teknik kaldet "self-attention" til at forstå sammenhænge mellem ord i en tekst.
   - De kan generere tekst ved sekventielt at forudsige det næste ord baseret på tidligere ord.
