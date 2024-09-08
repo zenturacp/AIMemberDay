@@ -52,10 +52,10 @@ I dag skal vi udforske tre hovedemner:
        - GPT-serien (GPT-3, GPT-4): Generel tekstgenerering, kodning, kreativ skrivning
        - BLOOM: Open-source alternativ til GPT, multilingval
        - Claude (Anthropic): Dialogsystemer, tekstanalyse, opgaveløsning
-    2. Encoder-modeller: (Beskrivelse: Fokuserer på at forstå input ved at omdanne det til en kompakt repræsentation)
+    2. Encoder-modeller: (Beskrivelse: Tænk på dem som "forståelsesmaskiner". De læser en tekst og laver den om til en slags digital opsummering, som computeren kan arbejde med)
        - BERT (Google): Tekstforståelse, sentiment-analyse, klassifikation
        - RoBERTa (Facebook): Forbedret version af BERT
-    3. Encoder-Decoder modeller: (Beskrivelse: Kombinerer en encoder til at forstå input og en decoder til at generere output)
+    3. Encoder-Decoder modeller: (Beskrivelse: Disse er som "oversættere". De læser først en tekst (encoder), forstår den, og kan så skabe ny tekst baseret på forståelsen (decoder))
        - T5 (Google): Tekstoversættelse, opsummering, spørgsmål-svar
        - BART (Facebook): Tekstgenerering, opsummering, oversættelse
     4. Domæne-specifikke modeller:
