@@ -106,7 +106,9 @@ async function processMarkdown(mdContent, baseDir, processedFiles, outputDir) {
       const savedFilePath = await fetchAndSaveExternalContent(url, outputDir);
       if (savedFilePath) {
         const relativePath = path.relative(outputDir, savedFilePath);
-        processedContent = processedContent.replace(fullMatch, `[${linkText}](${relativePath})`);
+        processedContent = processedContent.replace(fullMatch, `<a href="${relativePath}" target="_blank">${linkText}</a>`);
+      } else {
+        processedContent = processedContent.replace(fullMatch, `<a href="${url}" target="_blank">${linkText}</a>`);
       }
     } else if (url.endsWith('.md') && !processedFiles.has(url)) {
       const linkedMdPath = path.join(baseDir, url);
