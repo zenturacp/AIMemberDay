@@ -104,10 +104,49 @@ På samme måde er det vigtigt at vælge den LLM, der bedst passer til den speci
   - Når træningen er færdig, kan modellen bruges til at generere tekst, svare på spørgsmål eller udføre andre sprogopgaver
 
 ### Anvendelsesområder
-- Tekstgenerering
-- Sprogforståelse
-- Oversættelse
-- Kodegenerering
+LLM'er har en bred vifte af anvendelsesområder, der spænder over mange forskellige industrier og opgavetyper:
+
+1. Tekstgenerering
+   - Indholdsproduktion: Artikler, blogindlæg, produktbeskrivelser
+   - Kreativ skrivning: Historier, digte, manuskripter
+   - Automatisk rapportgenerering: Finansielle rapporter, nyhedsopsummeringer
+
+2. Sprogforståelse
+   - Sentiment-analyse: Vurdering af kundefeedback og sociale medieindlæg
+   - Tekstklassificering: Kategorisering af dokumenter, e-mails, eller support-tickets
+   - Informationsudtrækning: Identificering af nøgleord og begreber i tekster
+
+3. Oversættelse
+   - Maskinoversættelse: Oversættelse mellem forskellige sprog
+   - Lokalisering: Tilpasning af indhold til specifikke kulturer og markeder
+   - Realtidstolkning: Understøttelse af flersproget kommunikation
+
+4. Kodegenerering
+   - Automatisk kodning: Generering af kodestrukturer og funktioner
+   - Kodekompletering: Intelligent forslag til næste linje eller blok af kode
+   - Debugging-assistance: Hjælp til at identificere og løse kodningsfejl
+
+5. Chatbots og Virtuelle Assistenter
+   - Kundeservice: Automatiserede svar på kundeforespørgsler
+   - Personlige assistenter: AI-drevne hjælpere som Siri eller Alexa
+   - Interaktive læringssystemer: Personlige tutorer og uddannelsesværktøjer
+
+6. Dataanalyse og Indsigt
+   - Mønstergenkendelse: Identificering af trends i store datasæt
+   - Prædiktiv analyse: Forudsigelse af fremtidige tendenser baseret på historiske data
+   - Automatiseret rapportering: Generering af indsigtsfulde rapporter fra rå data
+
+7. Medicinsk og Videnskabelig Forskning
+   - Litteraturgennemgang: Hurtig analyse af videnskabelige publikationer
+   - Diagnostisk støtte: Hjælp til læger ved analyse af patientdata
+   - Lægemiddeludvikling: Accelerering af processen for opdagelse af nye lægemidler
+
+8. Juridisk Analyse
+   - Dokumentgennemgang: Hurtig analyse af kontrakter og juridiske dokumenter
+   - Casesøgning: Identifikation af relevante præcedenssager
+   - Compliance-tjek: Automatisk kontrol af overholdelse af regler og bestemmelser
+
+Disse anvendelsesområder viser, hvordan LLM'er kan revolutionere mange aspekter af vores arbejde og daglige liv ved at automatisere komplekse sproglige opgaver og give indsigt i store mængder information.
 
 ## 2. AI-drevne Værktøjer og Tjenester
 
