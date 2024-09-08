@@ -30,6 +30,10 @@ I dag skal vi udforske tre hovedemner:
 
 ### Hvad er LLM'er?
 - Definition og grundlæggende koncept
+  - AI (Kunstig Intelligens) er computersystemer, der kan udføre opgaver, som normalt kræver menneskelig intelligens.
+  - LLM'er (Large Language Models) er en type AI, der er specialiseret i at forstå og generere menneskeligt sprog.
+  - De er "store" fordi de er trænet på enorme mængder tekst og kan håndtere mange forskellige sprogopgaver.
+  - LLM'er kan ses som meget avancerede tekstgeneratorer, der kan forstå kontekst og producere meningsfuldt indhold.
 - Hvordan fungerer de?
 - Eksempler på populære LLM'er (GPT-3, BERT, etc.)
 
