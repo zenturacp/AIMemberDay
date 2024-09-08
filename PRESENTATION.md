@@ -255,7 +255,6 @@ For at få det bedste ud af AI i pair programming, er det vigtigt at forstå, hv
 
 Denne tilgang til AI i pair programming åbner op for en ny æra af softwareudvikling, hvor mennesker og maskiner samarbejder om at skabe mere effektive, robuste og innovative løsninger.
 
-
 ## Konklusion
 
 - Opsummering af hovedpunkter
@@ -268,3 +267,21 @@ Denne tilgang til AI i pair programming åbner op for en ny æra af softwareudvi
 - Diskussion om deltagernes erfaringer og tanker
 
 Tak for jeres opmærksomhed!
+
+## One More thing
+
+https://replit.com/ - Nyeste skud på stammen - er lige kommet i Beta, kan lave hele projekter og man kan demo det live i browser med backend etc.
+
+https://aider.chat/ - Den Pair programmer jeg bruger mest, køre bare via Python lokalt
+
+https://openrouter.ai/ - En løsning hvor man kan bruge alle LLMer uden at købe dem individuelt
+
+https://console.anthropic.com/ - En af de bedste LLMer (Lige nu), men den er betalt, men man får 5$ gratis til at prøve den ud.
+
+SoMe
+
+https://www.youtube.com/@AICodeKing - Youtube kanal med mange gode videoer om AI og kode, irriterende for den er AI generet og stemmen er ulidelig i starten
+
+https://www.youtube.com/@joshfpocock - Endnu flere AI developer tools
+
+https://www.youtube.com/@intheworldofai - Ja listen bliver ved
