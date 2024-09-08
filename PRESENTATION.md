@@ -46,7 +46,23 @@ I dag skal vi udforske tre hovedemner:
   - LLM'er bruger en teknik kaldet "self-attention" til at forstå sammenhænge mellem ord i en tekst.
   - De kan generere tekst ved sekventielt at forudsige det næste ord baseret på tidligere ord.
   - Modellerne kan finjusteres til specifikke opgaver som oversættelse, spørgsmål-svar eller kodegenerering.
-- Eksempler på populære LLM'er (GPT-3, GPT-4(o), BERT, Claude 3.5 Sonnet etc.)
+- Eksempler på populære LLM'er og deres anvendelsesområder
+  - Der findes hundredvis af LLM'er, som kan inddeles i forskellige kategorier baseret på deres arkitektur og anvendelse:
+    1. Generative modeller:
+       - GPT-serien (GPT-3, GPT-4): Generel tekstgenerering, kodning, kreativ skrivning
+       - BLOOM: Open-source alternativ til GPT, multilingval
+       - Claude (Anthropic): Dialogsystemer, tekstanalyse, opgaveløsning
+    2. Encoder-modeller:
+       - BERT (Google): Tekstforståelse, sentiment-analyse, klassifikation
+       - RoBERTa (Facebook): Forbedret version af BERT
+    3. Encoder-Decoder modeller:
+       - T5 (Google): Tekstoversættelse, opsummering, spørgsmål-svar
+       - BART (Facebook): Tekstgenerering, opsummering, oversættelse
+    4. Domæne-specifikke modeller:
+       - BioBERT: Specialiseret i biomedicinsk tekst
+       - LegalBERT: Fokuseret på juridiske tekster
+       - CodeBERT: Optimeret til forståelse og generering af kildekode
+  - Valg af model afhænger af opgaven, ressourcer og krav til ydeevne
 
 ### Grundlæggende principper
 - Kort introduktion til maskinlæring
