@@ -1,13 +1,5 @@
 # Fremtiden med AI: LLM'er, Værktøjer og Pair Programming
 
-## Introduktion
-
-Kunstig intelligens (AI) er ikke et nyt fænomen. I virkeligheden startede udviklingen af AI allerede i 1950'erne med Alan Turing's banebrydende arbejde. Siden da har AI-feltet gennemgået en bemærkelsesværdig udvikling, der især i de seneste årtier har vist en eksponentiel vækst. 
-
-For at få et hurtigt overblik over denne fascinerende rejse, kan I tage et kig på vores [AI Udvikling Historisk](HISTORY.md) tidslinje. Her vil I se, hvordan AI har udviklet sig fra teoretiske koncepter til de kraftfulde værktøjer, vi har i dag, såsom Large Language Models (LLM'er).
-
-Med denne historiske kontekst i baghovedet, lad os udforske, hvor vi står i dag, og hvor vi er på vej hen i AI's spændende verden.
-
 ## Erfaring med brug af AI?
 
 1. Hvor mange af jer har allerede arbejdet med AI eller machine learning projekter?
@@ -24,6 +16,14 @@ Med denne historiske kontekst i baghovedet, lad os udforske, hvor vi står i dag
 
 5. Er der nogen, der har erfaring med pair programming sammen med en AI?
    - Vis hånden hvis I har prøvet dette.
+
+## Introduktion
+
+Kunstig intelligens (AI) er ikke et nyt fænomen. I virkeligheden startede udviklingen af AI allerede i 1950'erne med Alan Turing's banebrydende arbejde. Siden da har AI-feltet gennemgået en bemærkelsesværdig udvikling, der især i de seneste årtier har vist en eksponentiel vækst. 
+
+For at få et hurtigt overblik over denne fascinerende rejse, kan I tage et kig på vores [AI Udvikling Historisk](HISTORY.md) tidslinje. Her vil I se, hvordan AI har udviklet sig fra teoretiske koncepter til de kraftfulde værktøjer, vi har i dag, såsom Large Language Models (LLM'er).
+
+Med denne historiske kontekst i baghovedet, lad os udforske, hvor vi står i dag, og hvor vi er på vej hen i AI's spændende (Og skræmmende) verden.
 
 ## Oversigt over Præsentationen
 
