@@ -35,6 +35,13 @@ I dag skal vi udforske tre hovedemner:
   - De er "store" fordi de er trænet på enorme mængder tekst og kan håndtere mange forskellige sprogopgaver.
   - LLM'er kan ses som meget avancerede tekstgeneratorer, der kan forstå kontekst og producere meningsfuldt indhold.
 - Hvordan fungerer de?
+  - LLM'er er baseret på neurale netværk med milliarder af parametre.
+  - De trænes på massive mængder tekstdata fra internettet og andre kilder.
+  - Under træningen lærer modellen mønstre og sammenhænge i sproget.
+  - Når modellen er trænet, kan den forudsige det næste ord i en sekvens baseret på konteksten.
+  - LLM'er bruger en teknik kaldet "self-attention" til at forstå sammenhænge mellem ord i en tekst.
+  - De kan generere tekst ved sekventielt at forudsige det næste ord baseret på tidligere ord.
+  - Modellerne kan finjusteres til specifikke opgaver som oversættelse, spørgsmål-svar eller kodegenerering.
 - Eksempler på populære LLM'er (GPT-3, BERT, etc.)
 
 ### Grundlæggende principper
