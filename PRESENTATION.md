@@ -282,20 +282,35 @@ Denne tilgang til AI i pair programming åbner op for en ny æra af softwareudvi
 
 Tak for jeres opmærksomhed!
 
-## One More thing
+## One More Thing
 
-https://replit.com/ - Nyeste skud på stammen - er lige kommet i Beta, kan lave hele projekter og man kan demo det live i browser med backend etc.
+### Værktøjer og Ressourcer
 
-https://aider.chat/ - Den Pair programmer jeg bruger mest, køre bare via Python lokalt
+1. **Replit (https://replit.com/)**
+   - Nyeste skud på stammen - er lige kommet i Beta
+   - Kan lave hele projekter og man kan demo det live i browser med backend etc.
 
-https://openrouter.ai/ - En løsning hvor man kan bruge alle LLMer uden at købe dem individuelt
+2. **Aider (https://aider.chat/)**
+   - Den Pair programmer jeg bruger mest
+   - Kører bare via Python lokalt
 
-https://console.anthropic.com/ - En af de bedste LLMer (Lige nu), men den er betalt, men man får 5$ gratis til at prøve den ud.
+3. **OpenRouter (https://openrouter.ai/)**
+   - En løsning hvor man kan bruge alle LLMer uden at købe dem individuelt
 
-SoMe
+4. **Anthropic Console (https://console.anthropic.com/)**
+   - En af de bedste LLMer (Lige nu)
+   - Betalt tjeneste, men man får 5$ gratis til at prøve den ud
 
-https://www.youtube.com/@AICodeKing - Youtube kanal med mange gode videoer om AI og kode, irriterende for den er AI generet og stemmen er ulidelig i starten
+### Sociale Medier og Læringsressourcer
 
-https://www.youtube.com/@joshfpocock - Endnu flere AI developer tools
+1. **AI Code King (https://www.youtube.com/@AICodeKing)**
+   - YouTube-kanal med mange gode videoer om AI og kode
+   - Bemærk: AI-genereret indhold, stemmen kan være irriterende i starten
 
-https://www.youtube.com/@intheworldofai - Ja listen bliver ved
+2. **Josh Pocock (https://www.youtube.com/@joshfpocock)**
+   - Endnu flere AI developer tools og ressourcer
+
+3. **In the World of AI (https://www.youtube.com/@intheworldofai)**
+   - Omfattende samling af AI-relateret indhold
+
+Disse ressourcer giver et godt udgangspunkt for at udforske og lære mere om AI-drevne udviklingsværktøjer og den seneste udvikling inden for AI-teknologi.
