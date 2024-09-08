@@ -17,7 +17,7 @@ async function fetchAndSaveExternalContent(url, baseDir) {
   }
 }
 
-async function processMarkdown(mdContent, baseDir) {
+async function processMarkdown(mdContent, baseDir, processedFiles = new Set()) {
   const linkRegex = /\[([^\]]+)\]\(([^)]+)\)/g;
   let match;
   let processedContent = mdContent;
@@ -30,23 +30,39 @@ async function processMarkdown(mdContent, baseDir) {
         const relativePath = path.relative(baseDir, savedFilePath);
         processedContent = processedContent.replace(fullMatch, `[${linkText}](${relativePath})`);
       }
+    } else if (url.endsWith('.md') && !processedFiles.has(url)) {
+      const linkedMdPath = path.join(baseDir, url);
+      if (fs.existsSync(linkedMdPath)) {
+        await generateHTML(linkedMdPath, baseDir, processedFiles);
+        const htmlFileName = url.replace('.md', '.html');
+        processedContent = processedContent.replace(fullMatch, `[${linkText}](${htmlFileName})`);
+      }
     }
   }
 
   return processedContent;
 }
 
-async function generateHTML() {
-  const baseDir = '.';
-  const mdContent = fs.readFileSync('PRESENTATION.md', 'utf-8');
-  const processedContent = await processMarkdown(mdContent, baseDir);
+async function generateHTML(mdFilePath, baseDir, processedFiles = new Set()) {
+  if (processedFiles.has(mdFilePath)) return;
+  processedFiles.add(mdFilePath);
+
+  const mdContent = fs.readFileSync(mdFilePath, 'utf-8');
+  const processedContent = await processMarkdown(mdContent, baseDir, processedFiles);
   const htmlContent = marked.parse(processedContent);
 
   const templatePath = path.join(__dirname, '..', 'templates', 'index.html.template');
   const template = fs.readFileSync(templatePath, 'utf-8');
   const styledHtml = template.replace('${htmlContent}', htmlContent);
 
-  fs.writeFileSync('index.html', styledHtml);
+  const htmlFilePath = mdFilePath.replace('.md', '.html');
+  fs.writeFileSync(htmlFilePath, styledHtml);
 }
 
-generateHTML().catch(console.error);
+async function main() {
+  const baseDir = '.';
+  const mainMdPath = path.join(baseDir, 'PRESENTATION.md');
+  await generateHTML(mainMdPath, baseDir);
+}
+
+main().catch(console.error);
