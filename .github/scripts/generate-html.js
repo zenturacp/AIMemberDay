@@ -79,15 +79,21 @@ async function generateHTML(mdFilePath, baseDir, processedFiles = new Set(), out
 
   const templatePath = path.join(__dirname, '..', 'templates', 'index.html.template');
   const template = fs.readFileSync(templatePath, 'utf-8');
-  const styledHtml = template.replace('${htmlContent}', htmlContent);
 
   const relativePath = path.relative(baseDir, mdFilePath);
   let htmlFilePath;
+  let backButton = '';
   if (path.basename(mdFilePath) === 'PRESENTATION.md') {
     htmlFilePath = path.join(outputDir, 'index.html');
   } else {
     htmlFilePath = path.join(outputDir, relativePath.replace('.md', '.html'));
+    backButton = '<a href="index.html" style="display: inline-block; margin-bottom: 20px; padding: 10px 20px; background-color: #f0f0f0; color: #333; text-decoration: none; border-radius: 4px;">Tilbage</a>';
   }
+
+  const styledHtml = template
+    .replace('${htmlContent}', htmlContent)
+    .replace('${backButton}', backButton);
+
   const htmlDir = path.dirname(htmlFilePath);
   if (!fs.existsSync(htmlDir)) {
     fs.mkdirSync(htmlDir, { recursive: true });
@@ -106,9 +112,9 @@ async function processMarkdown(mdContent, baseDir, processedFiles, outputDir) {
       const savedFilePath = await fetchAndSaveExternalContent(url, outputDir);
       if (savedFilePath) {
         const relativePath = path.relative(outputDir, savedFilePath);
-        processedContent = processedContent.replace(fullMatch, `<a href="${relativePath}" target="_blank">${linkText}</a>`);
+        processedContent = processedContent.replace(fullMatch, `<a href="${relativePath}">${linkText}</a>`);
       } else {
-        processedContent = processedContent.replace(fullMatch, `<a href="${url}" target="_blank">${linkText}</a>`);
+        processedContent = processedContent.replace(fullMatch, `<a href="${url}">${linkText}</a>`);
       }
     } else if (url.endsWith('.md') && !processedFiles.has(url)) {
       const linkedMdPath = path.join(baseDir, url);
