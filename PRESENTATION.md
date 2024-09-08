@@ -71,8 +71,24 @@ På samme måde er det vigtigt at vælge den LLM, der bedst passer til den speci
 
 ### Grundlæggende principper
 - Kort introduktion til maskinlæring
+  - Maskinlæring er som at lære et barn at genkende forskellige frugter
+  - I stedet for at give computeren specifikke regler, giver vi den mange eksempler
+  - Computeren lærer selv at finde mønstre og træffe beslutninger baseret på disse eksempler
+  - F.eks. efter at have set tusindvis af billeder af æbler og bananer, kan computeren lære at skelne mellem dem
+
 - Naturlig sprogbehandling (NLP)
+  - NLP handler om at få computere til at forstå og arbejde med menneskeligt sprog
+  - Det er som at lære en computer at læse, forstå og svare på en sms
+  - NLP omfatter opgaver som at forstå betydningen af ord, analysere sætningsstruktur og fortolke kontekst
+  - Det gør det muligt for computere at udføre opgaver som oversættelse, tekstopsummering og sentiment-analyse
+
 - Træningsprocessen for LLM'er
+  - At træne en LLM kan sammenlignes med at lære et barn at læse en hel bog
+  - Først "læser" modellen enorme mængder tekst fra internettet, bøger og artikler
+  - Under læsningen justerer modellen sine interne forbindelser for bedre at forudsige det næste ord i en sætning
+  - Dette er som at træne en muskel: jo mere modellen "læser", jo bedre bliver den til at forstå og generere tekst
+  - Træningen kræver kraftige computere og kan tage uger eller måneder
+  - Når træningen er færdig, kan modellen bruges til at generere tekst, svare på spørgsmål eller udføre andre sprogopgaver
 
 ### Anvendelsesområder
 - Tekstgenerering
