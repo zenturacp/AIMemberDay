@@ -109,7 +109,7 @@ Når vi arbejder med AI, er det vigtigt at forstå, at mange af de udfordringer,
 
 1. **Kvaliteten af input**: Ligesom med mennesker afhænger kvaliteten af AI's output af kvaliteten af dit input. Har du stillet en tilstrækkelig detaljeret opgave? Er du god til at uddelegere? Dette gælder både for mennesker og AI.
 
-2. **Forventninger til perfektion**: Vi accepterer, at mennesker kan lave fejl, men hvorfor er vi ofte mindre tolerante over for AI-fejl? I virkeligheden bør vi anvende samme forståelse og tilgang til fejl, uanset om de kommer fra et menneske eller en AI.
+2. **Forventninger til perfektion**: Vi accepterer, at mennesker kan lave fejl, men hvorfor er vi ofte mindre tolerante over for AI-fejl? I virkeligheden bør vi anvende samme forståelse og tilgang til fejl, uanset om de kommer fra et menneske eller en AI. Nogle gange oplever vi folk, der går efter at få AI'en til at fejle. Hvis udgangspunktet er, at man vil påvise, at den ikke virker, vil den fejle. Hvis man derimod har et udgangspunkt i, at man vil have den til at virke, vil man anskue problemstillingen mere konstruktivt og have højere succesrate.
 
 3. **Kommunikationsevner**: Hvis du har svært ved at instruere et andet menneske, vil du sandsynligvis opleve lignende udfordringer med en AI. Faktisk kan det være endnu mere udfordrende med AI, da du risikerer at få et svar, der er længere væk fra det ønskede resultat.
 
