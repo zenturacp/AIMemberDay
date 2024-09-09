@@ -113,7 +113,7 @@ Når vi arbejder med AI, er det vigtigt at forstå, at mange af de udfordringer,
 
 3. **Kommunikationsevner**: Hvis du har svært ved at instruere et andet menneske, vil du sandsynligvis opleve lignende udfordringer med en AI. Faktisk kan det være endnu mere udfordrende med AI, da du risikerer at få et svar, der er længere væk fra det ønskede resultat.
 
-4. **Tydelige forskelle**: De primære forskelle mellem mennesker og AI ligger i hastighed, udholdenhed og mængden af data, der kan håndteres samtidigt. Resten af udfordringerne er bemærkelsesværdigt ens.
+4. **Tydelige forskelle**: De primære forskelle mellem mennesker og AI ligger i hastighed, udholdenhed, mængden af data, der kan håndteres samtidigt, og timeløn. AI'er kan arbejde 24/7 uden overtidsbetaling eller lønkrav. Resten af udfordringerne er bemærkelsesværdigt ens.
 
 5. **Effektiv brug af AI**: For at få mest muligt ud af AI skal du være god til at formulere og forstå, hvad du vil opnå i en relation til en anden enhed, hvad enten det er en person eller en AI.
 
