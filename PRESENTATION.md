@@ -103,6 +103,24 @@ På samme måde er det vigtigt at vælge den LLM, der bedst passer til den speci
     - Disse høje omkostninger er en af grundene til, at kun få virksomheder kan udvikle de største LLM'er
   - Når træningen er færdig, kan modellen bruges til at generere tekst, svare på spørgsmål eller udføre andre sprogopgaver
 
+### Paralleller mellem menneskelige begrænsninger og AI-brug
+
+Når vi arbejder med AI, er det vigtigt at forstå, at mange af de udfordringer, vi møder, faktisk afspejler vores egne menneskelige begrænsninger og kommunikationsevner:
+
+1. **Kvaliteten af input**: Ligesom med mennesker afhænger kvaliteten af AI's output af kvaliteten af dit input. Har du stillet en tilstrækkelig detaljeret opgave? Er du god til at uddelegere? Dette gælder både for mennesker og AI.
+
+2. **Forventninger til perfektion**: Vi accepterer, at mennesker kan lave fejl, men hvorfor er vi ofte mindre tolerante over for AI-fejl? I virkeligheden bør vi anvende samme forståelse og tilgang til fejl, uanset om de kommer fra et menneske eller en AI.
+
+3. **Kommunikationsevner**: Hvis du har svært ved at instruere et andet menneske, vil du sandsynligvis opleve lignende udfordringer med en AI. Faktisk kan det være endnu mere udfordrende med AI, da du risikerer at få et svar, der er længere væk fra det ønskede resultat.
+
+4. **Tydelige forskelle**: De primære forskelle mellem mennesker og AI ligger i hastighed, udholdenhed og mængden af data, der kan håndteres samtidigt. Resten af udfordringerne er bemærkelsesværdigt ens.
+
+5. **Effektiv brug af AI**: For at få mest muligt ud af AI skal du være god til at formulere og forstå, hvad du vil opnå i en relation til en anden enhed, hvad enten det er en person eller en AI.
+
+6. **Kontinuerlig læring**: Ligesom med menneskelige relationer kræver effektiv brug af AI øvelse og tålmodighed. Jo mere du arbejder med AI, desto bedre bliver du til at kommunikere dine behov og fortolke resultaterne.
+
+Ved at forstå disse paralleller kan vi bedre udnytte AI's potentiale og samtidig forbedre vores egne kommunikations- og problemløsningsevner.
+
 ### Udvikling i Kontekstvindue
 LLM'er har oplevet en markant udvidelse af deres kontekstvindue over tid, hvilket har stor betydning for deres anvendelighed og ydeevne:
 
